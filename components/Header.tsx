@@ -26,7 +26,7 @@ function Header() {
             href="/"
             className={cn("nav-link", {
               "is-active": pathname === "/",
-              "is-home": true,
+              "is-home":true,
             })}
           >
             Home{" "}
